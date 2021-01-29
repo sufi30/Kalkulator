@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kalkulator</title>
+    <link rel="stylesheet" href="./src/css/style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="form1" style="margin-top: 25px;margin-left: 15px;">
+            <input type="number" name="bilangan1" class="bilangan" style="border: 3px solid blue;">
+            <input type="checkbox" name="check1" id="check1" class="check">
+
+        </div>
+        <div class="form2" style="margin-top: 25px;margin-left: 15px;">
+            <input type="number" name="bilangan2" class="bilangan" style="border: 3px solid blue;">
+            <input type="checkbox" name="check2" id="check2" class="check">
+
+        </div>
+        <div class="form3" style="margin-top: 25px;margin-left: 15px;">
+            <input type="number" name="bilangan3" class="bilangan" style="border: 3px solid blue;">
+            <input type="checkbox" name="check3" id="check3" class="check">
+
+        </div>
+        <div class="form-action" style="margin-top: 25px;margin-left: 15px;">
+            <button class="penjumlahan" value="+"><b style="color:blue">+</b></button>
+            <button class="pengurangan" value="-"><b style="color:blue">-</b></button>
+            <button class="perkalian" value="*"><b style="color:blue">*</b></button>
+            <button class="pembagian" value="/"><b style="color:blue">/</b></button>
+        </div>
+        <div class="form-action" style="margin-top: 25px;margin-left: 15px;">
+            <hr>
+        </div>
+        <div class="form-action" style="margin-top: 25px;margin-left: 15px;">
+            <b style="color:blue">Hasil : <span id="hasil"></span></b>
+        </div>
+    </div>
+    <script src="./src/js/index.js"></script>
+</body>
+
+</html>
